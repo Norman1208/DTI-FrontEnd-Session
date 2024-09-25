@@ -132,16 +132,201 @@ nav a {
 }
 .cards {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
     flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+.color-item {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    text-align: left;
+}
+
+.item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.07px;
+    text-align: center;
+
 }
 
 .light_layers {
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.layer_item {
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+    margin-top: 500px;
+    width: 260px;
+    height: 161px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-right: 140px;
+}
+
+.layer_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.layer_item button {
+    width: 224px;
+    height: 57px;
+    top: 2483px;
+    left: 121px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.his_arrival {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.her {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.her-text h1{
+    position: absolute;
+    width: 215px;
+    height: 0px;
+    top: 3584px;
+    left: 1083px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.her-text button {
+    position: absolute;
+    width: 224px;
+    height: 57px;
+    top: 3626px;
+    left: 1073px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .footer {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
+    width: 1440px;
+    height: 321px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+.company-info {
+    position: absolute;
+    width: 118px;
+    height: 174px;
+    top: 3794px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.company-info h1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: center;
+}
+
+.company-info ul {
+    list-style: none;
+}
+
+.company-info ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.legal-info {
+    position: absolute;
+    width: 285px;
+    height: 137px;
+    top: 3794px;
+    left: 363px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.legal-info h1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: center;
+
+}
+
+.legal-info ul {
+    list-style: none;
+}
+
+.legal-info ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.social {
+    position: absolute;
+    width: 125px;
+    height: 59px;
+    top: 3794px;
+    left: 973px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.social h1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: center;
+}
+
+.social ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 10px;
+}
+
+
+.location {
+    position: absolute;
+    width: 120px;
+    height: 19px;
+    top: 200px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;
+
 }
