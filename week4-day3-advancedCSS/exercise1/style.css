@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+header {
+    width: 1440px;
+    height: 100px;
+    gap: 0px;
+    opacity: 0.5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px 0px 0px 0px;
+}
+
+.top-bar {
+    background-color: #C4C4C4;
+    display: flex;
+    max-width: 1440px;
+    align-items: center;
+    height: 50px;
+    position: relative;
+}
+
+.shortcut-link {
+    margin-left: 44%; 
+    align-items: center;
+    color: black;
+    flex-basis: 35%;
+    font-size: 14px;
+}
+
+.shortcut-link a {
+    color: black;
+}
+
+.account {
+    font-size: 14px;
+    display: flex;
+    flex-basis: 10%;
+}
+
+.account a {
+    color: black;
+    text-decoration: none;
+}
+
+.love {
+    display: flex;
+    flex-basis: 2%;
+}
+
+.company-logo {
+    margin: 30px;
+    display: flex;
+    flex-basis: 50%;
+    
+    line-height: 51.36px;
+    text-align: center;
+    justify-content: center;
+}
+
+.company-logo h1 {
+    font-family: 'Modern No. 20', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Modern No. 20', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.26px;
+
+}
+
+.summer {
+    margin-top: 50px;
+    justify-content: center;
+}

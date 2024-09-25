@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+}
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(245, 250, 250);
+    display: flex;
+}
+
+.hero-item {
+    flex-basis: 50%;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+}
+
+.gallery img {
+    width: 195px;
+    height: 100%;
+}
+
+.gallery-author {
+
+}
+
+.header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 16px;
+    width: 100%;
+}
+
+.header-action img {
+    height: 20px;
+    width: 20px;
+    object-fit: scale-down;
+}
+
+.header-menu {
+    display: none;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Media quaries for mobile first approach*/
+
+@media screen and (min-width: 480px) {
+    .header-menu {
+        display: block;
+    }
+    .header-menu a {
+        color: red;
+    }
+}
+
+/* Media quaries for tablet and desktop */
+@media screen and (min-width: 768px) {
+    .header-menu {
+        display: block;
+    }
+    .header-menu a {
+        color: black;
+    }
+}
+
