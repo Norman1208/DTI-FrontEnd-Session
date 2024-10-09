@@ -1,7 +1,10 @@
+'use client'
 import { FC } from "react";
+import Emoji from "./emoji";
 
 
-const Emoji: FC = () => {
+const MainPage: FC = () => {
+
     return (
         <div className=" pl-5 flex w-[382px] justify-center items-center pb-10">
             <div className="bg-[#F8DD84] h-[841px]">
@@ -10,9 +13,7 @@ const Emoji: FC = () => {
                 </div>
                 <div className="pt-[100px] flex flex-col justify-center items-center">
                     <span className="text-[#4A7582] text-[20px] font-sans">Click it!</span>
-                    <div>
-                        emoticon
-                    </div>
+                    <Emoji />
                 </div>
 
                 <div className="pt-[200px] flex justify-center">
@@ -23,4 +24,4 @@ const Emoji: FC = () => {
     )
 }
 
-export default Emoji;
+export default MainPage;
